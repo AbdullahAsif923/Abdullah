@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1399px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+}
+/* header starts from here  */
+.header-first-section{
+    padding: 0% 5%;
+    background-image: linear-gradient(to right, #6b21a8 , #4338ca);
+}
+.header{
+    background-image: linear-gradient(to right, #6b21a8 , #4338ca);
+    width: 100%;
+    padding: 1% 0%;
+    border-bottom: 1px solid white;
+    position: sticky;   
+    top: 0;
+}
+.logo{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+}
+.pages{
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    color: #e5e7eb;
+    vertical-align: middle;
+}
+.customer-signup-signin{
+    display: inline-block;
+    width: 29%;
+    text-align: right;
+}
+.logo img{
+    width: 50%;
+    height: auto;
+}
+.pages li a{
+    color: white;
+    display: inline-flex;
+    text-decoration: none;
+    padding: 0% 5% 5% 0%;
+}
+.pages li{
+    list-style-type: none;
+}
+.button{
+    width: 100%;
+}
+.signup{
+    display: inline-block;
+    width: 48%;
+}
+.signin{
+    display: inline-block;
+    width: 48%;
+}
+.button button{
+    padding: 8% 15%;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #6b21a8;
+}
+/* header ends from here  */
+/* first section start from here  */
+.first-section{
+    width: 100%;
+    padding: 7% 0% 5% 0%;
+}
+.first-section-text{
+    display: inline-block;
+    width: 50%;
+}
+.first-section-search-bar{
+    display: inline-block;
+    width: 48%;
+}
+.first-section-text h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 90%;
+}
+.color{
+    color: #818CF8;
+}
+.first-section-text p{
+    font-size: 18px;
+    padding: 5% 0%;
+}
+.first-section-text button{
+    background-image: linear-gradient(to right, #8b5cf6, #d946ef);
+    font-size: 15px;
+    color : white;
+    padding: 3% 4%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.first-section-search-bar{
+    background-color: #1e283a;
+    padding: 5%;
+    vertical-align: top;
+    height: 80%;
+}
+.first-section-search-bar form{
+    text-align: right;
+}
+.first-section-search-bar form input{
+    border: 1px solid white;
+    padding: 3% 29%;
+    margin: 0% 0% 2% 0%;
+    background-color: transparent;
+}
+.first-section-search-bar p{
+    padding: 1% 0%;
+}
+.green-color{
+    color: lightgreen;
+}
+/* first section end from here  */
+.IP-Intelligence-Ecosystem{
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    color: rgba(0, 0, 0, 0.514);
+    padding: 0% 5%;
+}
+.IP-Intelligence-Ecosystem h1{
+    padding: 5% 0% 1% 0%;
+    font-weight: 900;
+}
+.Intelligence-Ecosystem-Sections{
+    display: inline-block;
+    width: 31%;
+    text-align: left;
+    padding: 4% 3%;
+}
+.Intelligence-Ecosystem-Sections img{
+    width: 40%;
+    height: auto;
+    margin: 0% 30%;
+}
+.Intelligence-Ecosystem-Sections p{
+    font-size: 18px;
+    padding: 4% 0%;
+}
+.Intelligence-Ecosystem-Sections button{
+    background-image: linear-gradient(to right, #8b5cf6, #d946ef);
+    font-size: 15px;
+    color : white;
+    padding: 5% 4%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+}
